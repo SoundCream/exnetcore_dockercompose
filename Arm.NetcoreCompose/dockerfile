@@ -1,0 +1,19 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+WORKDIR /build
+
+# Copy csproj and restore.
+#COPY . .
+COPY Arm.NetcoreCompose.sln .
+COPY Arm.NetcoreCompose/. ./Arm.NetcoreCompose
+COPY Arm.NetcoreCompose.Data/. ./Arm.NetcoreCompose.Data
+
+RUN dotnet restore
+
+# Publish as release configuration, Output directory "/app" and compile without restore.
+RUN dotnet publish -c Release -o out --no-restore
+
+# Run with .Netcore runtime
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS runtime
+WORKDIR /app
+COPY --from=build /build/out .
+ENTRYPOINT ["dotnet", "Arm.NetcoreCompose.dll"]

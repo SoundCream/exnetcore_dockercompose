@@ -1,0 +1,2 @@
+# Build dotnet core app
+> docker build -t dotnetcore_compose .

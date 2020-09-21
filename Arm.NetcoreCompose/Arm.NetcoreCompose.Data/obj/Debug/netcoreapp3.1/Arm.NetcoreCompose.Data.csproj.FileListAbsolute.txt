@@ -1,0 +1,9 @@
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\bin\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.deps.json
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\bin\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.dll
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\bin\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.pdb
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\obj\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.AssemblyInfoInputs.cache
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\obj\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.AssemblyInfo.cs
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\obj\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.dll
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\obj\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.pdb
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\obj\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.csprojAssemblyReference.cache
+C:\Arm\Proj\Arm.NetcoreCompose\Arm.NetcoreCompose\Arm.NetcoreCompose.Data\obj\Debug\netcoreapp3.1\Arm.NetcoreCompose.Data.csproj.CoreCompileInputs.cache

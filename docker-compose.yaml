@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+    netcore:
+        image: natthee/dotnetcore_compose:1.0.1
+        ports:
+            - 8082:80
+        depends_on:
+            - mssqlserver
+
+    mssqlserver:
+        image: natthee/mssql_for_netcorecompose:1.0.0
+        volumes:
+            - G:\DockerShared\mssql_netcorecompose:/var/opt/mssql
+        ports:
+            - 1434:1433
